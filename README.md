@@ -9,7 +9,7 @@ To use, simply `make`, then do the following:
 - `./vga2ansi < INPUT.BIN > OUTPUT.ANS`
 - `cat OUTPUT.ANS`
 
-This program respects the COLORTERM env variable. Clear it if you want a classic ^]]30-38/40-48 colormapping, or set it to 'truecolor' for a truecolor-compatible output.
+This program respects the COLORTERM env variable. Clear it if you want a classic ^]]30-37/40-47m colormapping, or set it to 'truecolor' for a truecolor-compatible output.
 ex:
 - `COLORTERM=truecolor ./vga2ansi < ENDOOM.BIN > ENDOOM.ANS`
 - `COLORTERM= ./vga2ansi < TEST.BIN > TEST.ANS`
